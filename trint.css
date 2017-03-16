@@ -1,0 +1,388 @@
+@font-face {
+    font-family: "Gloss And Bloom";
+    src: url("gloss_and_bloom/Gloss_And_Bloom.ttf");
+}
+
+html {
+    font-size: 20px;
+}
+
+main {
+    font-size: 20px;
+}
+
+body{
+	background-image: url("wallsht.jpg");
+	background-size: cover;
+}
+.box {
+	position: absolute;
+	color: white;
+	left: 120px;
+	top: 50px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 250px;
+    height: 170px;
+    margin: 10px auto;
+    padding: 10px;
+	background-color: #494A4B;
+}
+.boxx {
+	position: absolute;
+	left: 120px;
+	top: 50px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-color: #161718;
+}
+.boxx2 {
+	position: absolute;
+	left: 120px;
+	top: 250px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-color: #161718;
+}  
+.bg {
+	position: absolute;
+	left: 125px;
+	top: 95px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 240px;
+    height: 40px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-color: #363738;
+}
+.mini {
+	position: absolute;
+	left: 130px;
+	top: 100px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-image: url("navi.jpg");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+.box1 {
+	position: absolute;
+	left: 120px;
+	top: 250px;
+	width: 250px;
+	color: white;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    display: block;
+    margin-top: 10px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box2 {
+    display: block;
+	position: absolute;
+	left: 120px;
+	top: 380px;
+	width: 250px;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    margin-top: 10px;
+    height: 245px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.minibox {
+	display: block;
+	position: absolute;
+	left: 130px;
+	top: 390px;
+	width: 230px;
+	border: 1px solid gray;
+    background-color: #2C2D34;
+    margin-top: 10px;
+    height: 225px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.bor {
+	display: block;
+	color: white;
+	position: absolute;
+	left: 130px;
+	top: 390px;
+	width: 230px;
+	border: 1px solid gray;
+    background-color: #161718;
+    margin-top: 10px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.mini1 {
+	position: absolute;
+	left: 140px;
+	top: 440px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 210px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-image: url("navi.jpg");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+.mini2 {
+	position: absolute;
+	left: 140px;
+	top: 485px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 210px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-image: url("mira.jpg");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+.mini3 {
+	position: absolute;
+	left: 140px;
+	top: 530px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 210px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-image: url("sumail.jpg");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+.mini4 {
+	position: absolute;
+	left: 140px;
+	top: 575px;
+    display: block;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 210px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+	color: white;
+	background-image: url("dendi.jpg");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+.box3 {
+    display: block;
+	position: absolute;
+	left: 400px;
+	top: 50px;
+	width: 250px;
+	border: 1px solid gray;
+    background-image: url("cards.jpg");
+	background-size: 270px 170px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box4 {
+    display: block;
+	position: absolute;
+	left: 400px;
+	top: 230px;
+	width: 250px;
+	border: 1px solid gray;
+    background-image: url("basket.jpg");
+	background-size: 270px 170px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box5 {
+    display: block;
+	position: absolute;
+	left: 680px;
+	top: 230px;
+	width: 250px;
+	border: 1px solid gray;
+    background-image: url("up.jpg");
+	background-size: 270px 170px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box6 {
+    display: block;
+	position: absolute;
+	left: 680px;
+	top: 50px;
+	width: 250px;
+	border: 1px solid gray;
+    background-image: url("dota.jpg");
+	background-size: 270px 170px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box7 {
+    display: block;
+	position: absolute;
+	left: 400px;
+	top: 410px;
+	width: 530px;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    margin-top: 10px;
+    height: 215px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.bo7 {
+    display: block;
+	position: absolute;
+	left: 420px;
+	top: 430px;
+	width: 490px;
+	border: 1px solid gray;
+    background-color: #A2A4B1;
+    margin-top: 10px;
+    height: 175px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box8 {
+    display: block;
+	position: absolute;
+	left: 960px;
+	top: 230px;
+	width: 250px;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box11 {
+    display: block;
+	position: absolute;
+	left: 970px;
+	top: 240px;
+	width: 230px;
+	border: 1px solid gray;
+    background-image: url("coding.png");
+	background-size: 250px 180px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 130px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box9 {
+    display: block;
+	position: absolute;
+	left: 960px;
+	top: 50px;
+	width: 250px;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    margin-top: 10px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box12 {
+    display: block;
+	position: absolute;
+	left: 970px;
+	top: 60px;
+	width: 230px;
+	border: 1px solid gray;
+    background-image: url("kobe.jpg");
+	background-size: 270px 170px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 130px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.box10 {
+    display: block;
+	position: absolute;
+	left: 960px;
+	top: 410px;
+	width: 250px;
+	border: 1px solid gray;
+    background-color: #494A4B;
+    margin-top: 10px;
+    height: 215px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.box13 {
+    display: block;
+	position: absolute;
+	left: 975px;
+	top: 425px;
+	width: 220px;
+	border: 1px solid gray;
+    background-image: url("stud.jpg");
+	background-size: 270px 210px;
+	background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 185px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+@media screen and (max-width: 700px){
+    p {
+        display: none;
+    }
+}
